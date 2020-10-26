@@ -1,0 +1,106 @@
+/*全体*/
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	margin:0 auto;
+	width:100%;
+}
+
+h2{
+	font-family: 'Times New Roman',serif;
+	font-size:150%;	
+	padding-bottom:2%;
+}
+
+
+/*ヘッダー*/
+header{
+	font-family: 'Times New Roman',serif;
+	margin:3% 0;
+}
+
+.header-name{
+	text-align:center;
+}
+
+.header-name h1{
+	font-size:230%;
+}
+
+.header-name span{
+	margin-left:5%;
+}
+
+.navbar-wrapper{
+	width:100%;
+	background-color:#CEF9DC;
+	font-family: 'Gurmukhi MN','Meiryo UI','Arial Unicode MS',serif;;
+}
+
+.navbar-wrapper span{
+	font-family: 'Zapfino','Segoe Script',serif;
+	font-size:90%;
+	color:#555555;
+	padding-left:3%;
+
+}
+
+.nav-item a:hover{
+	border-bottom:2px solid #003300;
+}
+
+.active .nav-link{
+	color:#770000;
+	opacity:1;
+}
+
+
+footer .navbar-wrapper{
+	padding:2%;
+	height:20vh;
+}
+
+.footer-nav li{
+	list-style: none;
+	font-size:80%;
+	margin:-10px 0;
+}
+
+.footer-nav a{
+	color:#555555;
+	opacity:0.6;
+}
+
+.footer-nav a:hover{
+	opacity:1;
+}
+
+.footer-nav{
+	float:right;
+	display:inline-block;
+	margin-left:10%;
+}
+
+
+
+/*md 以上*/
+@media screen and (min-width:700px){
+
+	footer .navbar-wrapper{
+	height:10vh;
+	}
+
+
+	.footer-nav li{
+		display:inline-block;
+		float:left;
+	}
+
+	.footer-nav{
+		float:none;
+	}
+}
+
