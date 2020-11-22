@@ -1,0 +1,26 @@
+.profile-wrapper{
+	margin:3% auto;
+}
+
+.profile-text h2{
+	margin-bottom:5%;
+	padding:2%;
+}
+
+.picture{
+	width:90%;
+	margin:0 auto;
+	text-align: center;
+	vertical-align: center;
+}
+
+.kaisou-picture{
+	margin-left:-3%;
+}
+
+/*md 以下*/
+@media screen and (max-width:1000px){
+	.profile-text{
+		padding:0 5%;
+	}
+}
