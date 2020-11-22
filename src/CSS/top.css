@@ -44,7 +44,7 @@
 }
 
 .link{
-	display:inline-block;
+	display:inline;
 	float:left;
 	margin-right:7%;
 	margin-left:3%;
@@ -133,22 +133,22 @@
 
 /*service background*/
 .service1 {
-	background-image:url(musicnote.jpeg);
+	background-image:url(.../asset/musicnote.jpeg);
 	background-size:cover;
 }
 
 .service2 {
-	background-image:url(piano.jpeg);
+	background-image:url(.../asset/piano.jpeg);
 	background-size:cover;
 }
 
 .service3 {
-	background-image:url(piano-lesson.jpeg);
+	background-image:url(.../asset/piano-lesson.jpeg);
 	background-size:cover;
 }
 
 .service4 {
-	background-image:url(kaisou.jpeg);
+	background-image:url(.../asset/kaisou.jpeg);
 	background-size:cover;
 	background-position:center;
 }

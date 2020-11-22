@@ -80,7 +80,7 @@ footer .navbar-wrapper{
 
 .footer-nav{
 	float:right;
-	display:inline-block;
+	display:inline;
 	margin-left:10%;
 }
 
@@ -95,7 +95,7 @@ footer .navbar-wrapper{
 
 
 	.footer-nav li{
-		display:inline-block;
+		display:inline;
 		float:left;
 	}
 
