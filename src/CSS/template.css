@@ -80,10 +80,9 @@ footer .navbar-wrapper{
 
 .footer-nav{
 	float:right;
-	display:inline;
+	display:inline-block;
 	margin-left:10%;
 }
-
 
 
 /*md 以上*/
